@@ -1,16 +1,69 @@
-# React + Vite
+Job Portal Web Application
+A modern, responsive web application built as part of the BSc. CSIT 3rd Semester curriculum. This project demonstrates the implementation of a real-world Job Portal using React.js, focusing on efficient state management, API handling, and high-quality UI/UX design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Project Overview
+This project was developed during the React session to consolidate knowledge of modern frontend development. It allows users to browse job listings, view details, and navigate through a seamless interface.
 
-Currently, two official plugins are available:
+Key Features
+Dynamic Job Listings: Fetched and managed via API handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Advanced UI/UX: Built with Tailwind CSS for a sleek, responsive design.
 
-## React Compiler
+State Management: Extensive use of React Hooks (useState, useEffect, useContext) for real-time application logic.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Routing: Smooth navigation using react-router-dom.
 
-## Expanding the ESLint configuration
+Fast Performance: Optimized using Vite for a near-instant development experience and production build.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+Frontend Library: React.js
+
+Build Tool: Vite
+
+Styling: Tailwind CSS
+
+Navigation: React Router
+
+Icons: React Icons / Lucide React
+
+📂 Project Structure
+Plaintext
+src/
+├── components/      # Reusable UI components (Navbar, JobCard, etc.)
+├── pages/           # Main page views (Home, Jobs, Details)
+├── hooks/           # Custom React hooks for logic reuse
+├── assets/          # Static files (Images, Logos)
+└── App.jsx          # Main application entry and routing
+⚙️ Installation & Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/samit2059/BSc.CSIT-2081-3rdSemester-React-JobPortalWeb.git
+Navigate to the project directory:
+
+Bash
+cd BSc.CSIT-2081-3rdSemester-React-JobPortalWeb
+Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
+npm run dev
+Open in Browser:
+Visit http://localhost:5173 (or the port shown in your terminal).
+
+🎓 Academic Context
+Course: Bachelor of Science in Computer Science and Information Technology (BSc. CSIT)
+
+Semester: 3rd Semester
+
+Institution: Samriddhi College, Tribhuvan University
+
+Purpose: Final project for the React.js training session.
+
+🌐 Live Demo
+The project is deployed and can be viewed here:
+
+👉 jobportal-samit.vercel.app
